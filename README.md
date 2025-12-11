@@ -45,7 +45,7 @@ First, clone this repository and set the working directory:
 git clone https://github.com/munozdjp/PINF.git
 
 # set working dir
-cd PINF__Code/<script>
+cd PINF_Code/<script>
 ```
 
 Each script generates the results for:
@@ -54,16 +54,16 @@ Each script generates the results for:
 
 The list of the scripts that you can find on this GitHub:
 
-1- [Saddle-node bifurcation](https://github.com/munozdjp/PINF/blob/main/PINF__Code/SaddleNodeLeft2Rigth.m): prediction for switching fix point. 
+1- [Saddle-node bifurcation](https://github.com/munozdjp/PINF/blob/main/PINF_Code/SaddleNodeLeft2Rigth.m): prediction for switching fix point. 
   
-2- [Pitchfork-bifurcation](https://github.com/munozdjp/PINF/blob/main/PINF__Code/Pitchfork_fit_Left2Right.m): prediction for growing fix point dynamic.
+2- [Pitchfork-bifurcation](https://github.com/munozdjp/PINF/blob/main/PINF_Code/Pitchfork_fit_Left2Right.m): prediction for growing fix point dynamic.
 
-3- [Hopf-Bifurcation](https://github.com/munozdjp/PINF/blob/main/PINF__Code/Hopf_fit_withobservedVariablesNonNormal.m): learned hidden variable on oscillator to fixpoint dynamic. 
+3- [Hopf-Bifurcation](https://github.com/munozdjp/PINF/blob/main/PINF_Code/Hopf_fit_withobservedVariablesNonNormal.m): learned hidden variable on oscillator to fixpoint dynamic. 
 
-4- [Lorentz](https://github.com/munozdjp/PINF/blob/main/PINF__Code/Lorentz_fit_ObservedVariables.m): learned hidden variable on different regimes of chaotic system. 
+4- [Lorentz](https://github.com/munozdjp/PINF/blob/main/PINF_Code/Lorentz_fit_ObservedVariables.m): learned hidden variable on different regimes of chaotic system. 
 
 
-5- [FitzHugh-Nagumo](https://github.com/munozdjp/PINF/blob/main/PINF__Code/Fitz_Nagumo2th_fit_ObservedVariables.m): to run the script, please download this [dataset](https://figshare.com/s/a1e42815cf89b4eff381) and save it in the same directory as the script.
+5- [FitzHugh-Nagumo](https://github.com/munozdjp/PINF/blob/main/PINF_Code/Fitz_Nagumo2th_fit_ObservedVariables.m): to run the script, please download this [dataset](https://figshare.com/s/a1e42815cf89b4eff381) and save it in the same directory as the script.
 
 The extra scripts are complementary validation of PINF method. 
   
@@ -72,7 +72,7 @@ Working example: saddle node
 
 The saddle node bifurcation is a dynamical system that shows a switching point dynamic, from a lower state to a high upper state. 
 
-Here you can find the complete script of [saddle node](https://github.com/munozdjp/PINF/blob/main/PINF__Code/SaddleNodeLeft2Rigth.m) 
+Here you can find the complete script of [saddle node](https://github.com/munozdjp/PINF/blob/main/PINF_Code/SaddleNodeLeft2Rigth.m) 
   
 First, we need to define the static variables. We recommend using the default values:
 
@@ -115,11 +115,11 @@ The output is the following 5 figures:
 
 ### Setup Instructions
 
-To access the [Python scripts](https://github.com/munozdjp/PINF/tree/main/PINF__Code/DeepLearningNormalForms), modify your current working directory by executing the following command:
+To access the [Python scripts](https://github.com/munozdjp/PINF/tree/main/PINF_Code/DeepLearningNormalForms), modify your current working directory by executing the following command:
 
 ```
 # Set working directory
-cd PINF__Code/DeepLearningNormalForms
+cd PINF_Code/DeepLearningNormalForms
 ```
 ### Create Conda Environment
 
@@ -141,7 +141,7 @@ Obtain the [data set of the normal forms](https://doi.org/10.6084/m9.figshare.25
  
 ### Scripts for Machine Learning
 
-In the directory of [Deep Learning Normal Form](https://github.com/munozdjp/PINF/tree/main/PINF__Code/DeepLearningNormalForms), you will find various scripts that generate their respective results:
+In the directory of [Deep Learning Normal Form](https://github.com/munozdjp/PINF/tree/main/PINF_Code/DeepLearningNormalForms), you will find various scripts that generate their respective results:
 
 Run each script with the following command:
 
@@ -149,18 +149,18 @@ Run each script with the following command:
 python <scriptname>
 ```
 
-1- [Classification Comparison: MLP, RF, KNN](https://github.com/munozdjp/PINF/blob/main/PINF__Code/DeepLearningNormalForms/ClassificationComparisonRF_MLP_KNN.py): generate a comparison of accuracy for a library of four normal forms and compare the accuracy between Multilayer Perceptron (MLP), Random Forest (RF), and K-Nearest Neighbor (KNN).
+1- [Classification Comparison: MLP, RF, KNN](https://github.com/munozdjp/PINF/blob/main/PINF_Code/DeepLearningNormalForms/ClassificationComparisonRF_MLP_KNN.py): generate a comparison of accuracy for a library of four normal forms and compare the accuracy between Multilayer Perceptron (MLP), Random Forest (RF), and K-Nearest Neighbor (KNN).
 
-2- [Noise robustness for Random Forest on Normal Forms](https://github.com/munozdjp/PINF/blob/main/PINF__Code/DeepLearningNormalForms/RForest_Noise.py): generate a comparison of classification using different noise additions for a library of four bifurcation normal forms: Saddle, Pitchfork, Transcritical, and Hopf, plus a combination of two normal forms, Hopf-Saddle and Hopf-Pitchfork.
+2- [Noise robustness for Random Forest on Normal Forms](https://github.com/munozdjp/PINF/blob/main/PINF_Code/DeepLearningNormalForms/RForest_Noise.py): generate a comparison of classification using different noise additions for a library of four bifurcation normal forms: Saddle, Pitchfork, Transcritical, and Hopf, plus a combination of two normal forms, Hopf-Saddle and Hopf-Pitchfork.
 
-3- [Downsampling Accuracy](https://github.com/munozdjp/PINF/blob/main/PINF__Code/DeepLearningNormalForms/DownsamplingComparison.py): generate a downsampling size of the training data from a reduction of 2% to 0.5% of the original size.
+3- [Downsampling Accuracy](https://github.com/munozdjp/PINF/blob/main/PINF_Code/DeepLearningNormalForms/DownsamplingComparison.py): generate a downsampling size of the training data from a reduction of 2% to 0.5% of the original size.
 
 Results from these scripts are stored in a new directory titled "figures results deep learning"
 
 **Working example ML**
 ----------------------
 
-From the [Comparison Classifier Script](https://github.com/munozdjp/PINF/blob/main/PINF__Code/DeepLearningNormalForms/ClassificationComparisonRF_MLP_KNN.py) you will obtain the following plot 
+From the [Comparison Classifier Script](https://github.com/munozdjp/PINF/blob/main/PINF_Code/DeepLearningNormalForms/ClassificationComparisonRF_MLP_KNN.py) you will obtain the following plot 
 
 **Fig 1:** show a comparison of accuracy and noise robusteness for three algorithm MLP, RF and KNN. 
 
