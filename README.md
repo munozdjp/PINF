@@ -12,7 +12,7 @@ This repository contains the PINF method applied to the different dynamical syst
 * [Scripts](#Scripts)
 * [Working example: saddle node](#Working-example-saddle-node)
 * [Deep Learning for Normal Form Identification](#deep-learning-for-normal-form-identification)
-* [Scripts ML](#scripts-ml)
+* [Scripts ML](#scripts-for-machine-learning)
 * [Contributing](#Contributing)
 * [License](#License)
 * [Requirements](#Requirements)
