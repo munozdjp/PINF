@@ -54,16 +54,15 @@ Each script generates the results for:
 
 The list of the scripts that you can find on this GitHub:
 
-1- [Saddle-node bifurcation](https://github.com/munozdjp/PINF/blob/main/PINF_Code/SaddleNodeLeft2Rigth.m): prediction for switching fix point. 
-  
-2- [Pitchfork-bifurcation](https://github.com/munozdjp/PINF/blob/main/PINF_Code/Pitchfork_fit_Left2Right.m): prediction for growing fix point dynamic.
+1- [Saddle-node bifurcation](https://github.com/munozdjp/PINF/blob/main/PINF_Code/Scripts_Models/Saddle_V4.m): prediction for switching fix point. 
 
-3- [Hopf-Bifurcation](https://github.com/munozdjp/PINF/blob/main/PINF_Code/Hopf_fit_withobservedVariablesNonNormal.m): learned hidden variable on oscillator to fixpoint dynamic. 
+2- [Pitchfork-bifurcation](https://github.com/munozdjp/PINF/blob/main/PINF_Code/Scripts_Models/Pitchfork_V4.m): prediction for growing fix point dynamic.
 
-4- [Lorentz](https://github.com/munozdjp/PINF/blob/main/PINF_Code/Lorentz_fit_ObservedVariables.m): learned hidden variable on different regimes of chaotic system. 
+3- [Hopf-Bifurcation](https://github.com/munozdjp/PINF/blob/main/PINF_Code/Scripts_Models/Hopf_V4.m): learned hidden variable on oscillator to fixpoint dynamic. 
 
+4- [Lorentz](https://github.com/munozdjp/PINF/blob/main/PINF_Code/Scripts_Models/Lorentz_V4.m): learned hidden variable on different regimes of chaotic system. 
 
-5- [FitzHugh-Nagumo](https://github.com/munozdjp/PINF/blob/main/PINF_Code/Fitz_Nagumo2th_fit_ObservedVariables.m): to run the script, please download this [dataset](https://figshare.com/s/a1e42815cf89b4eff381) and save it in the same directory as the script.
+5- [FitzHugh-Nagumo](https://github.com/munozdjp/PINF/blob/main/PINF_Code/Scripts_Models/FitzHugh_V4.m): to run the script, please download this [dataset](https://figshare.com/s/a1e42815cf89b4eff381) and save it in the same directory as the script.
 
 The extra scripts are complementary validation of PINF method. 
   
